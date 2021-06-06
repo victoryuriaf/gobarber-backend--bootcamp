@@ -1,4 +1,45 @@
-#  Recuperação de Senha
+# 💈 GoBarber - API
+
+### The project consists of creating a web application for scheduling services in a barbershop.
+
+💻 A Rest API which returns content in JSON that will be consumed bya Front-end in ReactJS and a Mobile application with React Native.
+
+## 🚀 Technologies
+
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
+
+![image](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![image](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+![image](https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white)
+
+![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
+![image](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)
+
+
+## 💻 How to use
+
+First you need to install Node.js.
+
+### Clone this repository
+$ git clone https://github.com/victoryuriaf/gobarber-backend--bootcamp.git
+
+### Go into the repository
+$ cd gobarber-backend
+
+### Install dependencies
+$ yarn install
+
+### Run the app
+$ yarn start
+
+### Made with ❤ by Victor Yuri.
+
+## 👷‍♂️ Arquitetura e DDD do App.
+
+###  Recuperação de Senha
 
 **RF** (Requisitos Funcionais)
 - O usuário deve poder recuperar sua senha informando o seu e-mail;
@@ -15,7 +56,7 @@
 - O usuário precisa confirmar a nova senha (digitar a nova senha duas vezes) ao resetar sua senha;
 
 
-# Atualização do Perfil
+### Atualização do Perfil
 
 **RF**
 - O usuário deve poder atualizar seu nome, e-mail e senha;
@@ -27,7 +68,8 @@
 - Para atualizar sua senha o usuário deve informar a senha antiga;
 - Para atualizar sua senha o usuário precisa confirmar a nova senha;
 
-# Painel do Prestador
+### Painel do Prestador
+
 **RF**
 - O usuário deve poder listar seus agendamentos de um dia específico;
 - O prestador deve receber uma notificação sempre que houver um novo agendamento;
@@ -41,7 +83,8 @@
 **RN**
 - A notificação deve ter um status de lida ou não lida para que o prestador possa controlar;
 
-# Agendamento de Serviços
+### Agendamento de Serviços
+
 **RF**
 - O usuário deve poder listar todos os prestadores de serviço cadastrados;
 - O usuário deve poder listar os dias de um mês com pelo menos um horário disponível de um prestador;
